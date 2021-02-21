@@ -1,0 +1,4 @@
+<aura:component >
+	<lightning:input aura:id="inputCmp" type="file"
+            onchange="{! c.handleFilesChange }"/>
+</aura:component>
